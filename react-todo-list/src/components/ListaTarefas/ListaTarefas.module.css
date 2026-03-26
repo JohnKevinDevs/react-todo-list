@@ -6,6 +6,10 @@
 
 .mensagem {
   text-align: center;
-  color: #666666;
-  padding: 20px 0;
+  color: #64748b;
+  padding: 22px 0;
+  background-color: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 12px;
+  font-size: 15px;
 }
