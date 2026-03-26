@@ -1,3 +1,11 @@
-.container {
-  
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mensagem {
+  text-align: center;
+  color: #666666;
+  padding: 20px 0;
 }
