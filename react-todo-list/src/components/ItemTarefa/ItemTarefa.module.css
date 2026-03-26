@@ -1,3 +1,37 @@
-.container {
-  
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.textoPendente {
+  color: #222222;
+}
+
+.textoConcluido {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.botaoExcluir {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #d9534f;
+  color: white;
+  cursor: pointer;
+}
+
+.botaoExcluir:hover {
+  opacity: 0.9;
 }
