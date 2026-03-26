@@ -1,3 +1,26 @@
-.container {
-  
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.botao {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #222222;
+  color: white;
+  cursor: pointer;
+}
+
+.botao:hover {
+  opacity: 0.9;
 }
